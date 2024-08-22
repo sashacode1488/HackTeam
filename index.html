@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Team Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#vacancies">Вакансии</a>
+        <a href="#content">Контент</a>
+        <a href="#minecraft">Майнкрафт</a>
+        <a href="#social">Наши соцсети</a>
+    </div>
+
+    <div id="vacancies" class="tab-content">
+        <h1>Вакансии</h1>
+        <ul>
+            <li><strong>Долбаный Тестировщик</strong></li>
+            <li><strong>Хелпер</strong></li>
+            <li><strong>Тестировщик</strong></li>
+            <li><strong>Технический администратор</strong></li>
+            <li><strong>Кодер</strong></li>
+        </ul>
+        
+        <button id="toggle-tutorial" onclick="toggleTutorial()">Открыть туториал</button>
+        
+        <div id="tutorial" class="tutorial-content">
+            <h2>Как подать заявку на вакансию:</h2>
+            <ol>
+                <li>Напишите админу в личные сообщения о том, что хотите вакансию.</li>
+                <li>Когда админ ответит, укажите, на какую вакансию вы записываетесь.</li>
+                <li>Следуйте инструкциям.</li>
+                <li>Подождите немного, пока админы проверят информацию.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="content" class="tab-content">
+        <h1>Контент</h1>
+        <p>Контента нет.</p>
+    </div>
+
+    <div id="minecraft" class="tab-content">
+        <h1>Майнкрафт</h1>
+        <p>Незнаю лол</p>
+    </div>
+
+    <div id="social" class="tab-content">
+        <h1>Наши соцсети</h1>
+        <p>Подписывайтесь на наши социальные сети!</p>
+        <ul>
+            <li>
+                <img src="discord.png" alt="Discord" class="icon">
+                <a href="https://discord.gg/HYWu4Pjy" target="_blank">Наш Discord канал</a>
+            </li>
+            <li>
+                <img src="youtube.jpg" alt="YouTube" class="icon">
+                <a href="https://www.youtube.com/@hackteambios" target="_blank">Наш YouTube канал</a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
